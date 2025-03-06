@@ -1,7 +1,7 @@
 {
   "name": "personas-and-storyboarding",
   "version": "0.1.0",
-  "homepage": "https://github.com/selenajwilliams/dining-hall-POS-story-mapping.git",
+  "homepage": "https://selenajwilliams.github.io/dining-hall-POS-story-mapping.git",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
