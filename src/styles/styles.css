@@ -55,12 +55,18 @@ p {
 
 
 .img {
-    display: flex;
-    max-width: 80%;
-    min-width: 80%;
+    /* display: flex; */
+    max-width: 60%;
 
 }
 
+
+/* this isn't working :( */
+@media (min-width: 1200px) {
+    img {
+        max-width: 40%
+    }
+}
 
 
 /** Jeff's CSS Reset
@@ -77,39 +83,10 @@ like every other platform) */
 which have a width based on the media,
 so we prevent it from expanding beyond
 its container, and take up a row */
-img, picture, video, canvas, svg {
-display: block;
-/* max-width: 100%; */
-}
-
-/* get rid of default margins which
-vary depending on browser anyway, just
-set it yourself later*/
-* {
-margin: 0;
-}
-
-/* make tables look like spreadsheets
-and less like a spaced-out grid */
-table {
-border-collapse: collapse;
-border-spacing: 0;
-}
-
-/* set border-box (so that css uses a
-more reasonable box model, and so it’s
-like every other platform) */
-*, *::before, *::after {
-    box-sizing: border-box;
-}
-/* media elements are replaced elements
-which have a width based on the media,
-so we prevent it from expanding beyond
-its container, and take up a row */
-img, picture, video, canvas, svg { /*TODO: this used to also have img as a tag here */
+/* picture, video, canvas, svg {
 display: block;
 max-width: 100%;
-}
+} */
 
 /* get rid of default margins which
 vary depending on browser anyway, just
@@ -124,5 +101,3 @@ table {
 border-collapse: collapse;
 border-spacing: 0;
 }
-
-
