@@ -13,7 +13,7 @@ export function Intro() {
     <div>
         <h1>Understanding Point-of-Sale Experiences of Brown Dining Services Workers</h1>
         <h2>Project Overview</h2>
-        <p>In this project, I set out to better understand the experiences of Brown Dining Services workers with point-of-sale (POS) interfaces. To accomplish this, I conducted a series of interviews, analyzed common challenges, needs, and strengths of the existing POS system, in order to provide data-driven recommendations for improvement.</p>
+        <p>In this project, I set out to better understand the experiences of Brown Dining Services workers with point-of-sale (POS) interfaces. To accomplish this, I conducted a series of interviews, analyzed common challenges, and developed a system sketch and user personas in order to provide data-driven recommendations for improvement.</p>
     </div>
     )
 }
@@ -22,7 +22,7 @@ export function InterfaceSketch() {
     return (
         <div>
             <h2>Inteface Sketch</h2>
-            <p>For context, here is a sketch of the point-of-sale (POS) interface that Brown Dining Services workers use. Large, colorful, simple buttons make workflows easy by limiting decision fatigue. A lack of nesting allows for simple, efficient transactions that only require two clicks to complete.</p>
+            <p>Here is a sketch of the point-of-sale (POS) interface that Brown Dining Services workers use. Large, colorful, simple buttons make workflows easy by limiting decision fatigue. A lack of nesting allows for simple, efficient transactions that only require two clicks to complete. One system weakness that is not easily visible on the sketch are reliability issues with it, as Brown Dining Services workers noted that the system will ocassionally become unresponsive. </p>
             <img className='img' src={interfaceSketch} alt='sketch of Brown Dining Services Point of Sale System'/>
         </div>
     )
@@ -32,8 +32,26 @@ export function UserInterviews() {
     return (
         <div>
             <h2>User Interviews</h2>
+
+            <h3>Interview Questions</h3>
+            <p>To understand user experiences with POS interfaces, I asked the following questions: </p>
+            <ol>
+                <li>
+                What is your experience with the interface?
+                </li><li>
+                How simple & easy to use do you find the POS interface, and why?
+                </li><li>
+                How frustrating do you find the interface, and why?
+                </li><li>
+                Have you used other POS interfaces and if so, what has your experience been?
+                </li><li>
+                Does the interface ever conflict with your expectations of how it should work? If yes, when and how?
+                </li>
+            </ol>
+            <br/>
+
             <h3>Interview Insights</h3>
-            <p>To better understand the experiences of Brown Dining Services employees, I conducted a series of interviews and observational studies. Through these interviews, I gained the following insights: </p>
+            <p>From my interviews, I gained the following insights: </p>
             <ul>
                 <li>
                 Dining hall workers are able to quickly process student transactions
@@ -52,24 +70,9 @@ export function UserInterviews() {
                 </li>
             </ul>
             <br/>
-            <h3>Interview Questions</h3>
-            <p>To gain these insights, I asked the following questions: </p>
-            <ol>
-                <li>
-                What is your experience with the interface?
-                </li><li>
-                How simple & easy to use do you find the POS interface?
-                </li><li>
-                Do you have any frustrations with the POS interface? If so, what?
-                </li><li>
-                Have you used other POS interfaces and if so, what has your experience been?
-                </li><li>
-                Does the interface ever conflict with your expectations of how it should work? If yes, when and how?
-                </li>
-            </ol>
-            <br/>
+
             <h3>Interview Summaries</h3>
-            <p>In summary, ⅔ users used the registers regularly, and the other used it occasionally as a manager. All users expressed that they were happy with the simplicity and learnability of the interface, with one noting that it was easy even “for an older gentleman.” In particular, users noted the big, colorful buttons and transactions taking only two clicks as key features that led to their enjoyment and usability of the interface. When asked about frustrations they encountered with the system, users generally expressed that they didn’t find it frustrating at all. However, when asked a second time, users would remember occasional system errors, noting that every once in a while the system will go down and take up to 10 minutes to reboot. Thus, based on my interviews, it seems that interface improvements can come in the form of reliability improvements rather than workflow changes.</p>
+            <p>In summary, ⅔ users used the registers regularly, and the other used it occasionally as a manager. All users expressed that they were happy with the simplicity and learnability of the interface, with one noting that it was easy even “for an older gentleman.” In particular, users noted the big, colorful buttons and transactions taking only two clicks as key features that led to their enjoyment and usability of the interface. When asked about frustrations they encountered with the system, users initially expressed that they didn’t find it frustrating at all. However, when asked a second time, users would remember occasional system errors, noting that every once in a while the system will go down and take up to 10 minutes to reboot. Thus, based on my interviews, it seems that interface improvements can come in the form of reliability improvements rather than workflow changes.</p>
         </div>
         
     )
@@ -114,8 +117,8 @@ export default function PersonasAndStoryboarding() {
     return (
         <div className='container'> 
             <Intro/>
-            <InterfaceSketch/>
             <UserInterviews/>
+            <InterfaceSketch/>
             <Personas/>
             <Storyboard/>
             <Conclusion/>
