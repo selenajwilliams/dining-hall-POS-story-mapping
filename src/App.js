@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Headings from './components/Headings';
+// import Headings from './components/Headings';
+import PersonasAndStoryboarding from './components/PesronasAndStoryboarding';
 
 function App() {
   return (
     <div className="App">
-      <Headings/>
+      {/* <Headings/> */}
+      <PersonasAndStoryboarding/>
 
 
 

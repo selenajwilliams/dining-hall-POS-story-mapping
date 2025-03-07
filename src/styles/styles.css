@@ -7,25 +7,27 @@ body {
 }
 
 h1 {
+    margin-top: 10px;
     color: #E86249;
-    font-size: 60;
 }
 
 h2 {
+    margin-top: 15px;
     color: #F4B1A4;
-    font-size: 36;
 }
 
+/* HOW CAN I ADD A CLASS CALLED 'c' that centers 
+   any text with that class name?*/
+
 h3 {
+    margin-top: 10px;
     color: #F4B1A4;
-    font-size: 50;
     font-style: italic;
     text-align: left;
 }
 
 h4 {
     color: #F4B1A4;
-    font-size: 24;
     font-style: italic;
     font-weight: bold;
     text-align: left;
@@ -33,14 +35,16 @@ h4 {
 
 h5 {
     color: #F4B1A4;
-    font-size: 30;
     font-weight: bolder;
     text-align: left;
 }
 
 h6 { /* TODO: change this */
-    color:#E86249,
+    color: #F4B1A4;
+    text-align: left;
+
 }
+
 
 p {
     color: #333333;
@@ -50,11 +54,11 @@ p {
 }
 
 
-
-/* TODO: left-align images! */
-.img { /* so images don't take up the entire screen & are left aligned */
+.img {
+    display: flex;
     max-width: 80%;
     min-width: 80%;
+
 }
 
 
@@ -89,3 +93,35 @@ table {
 border-collapse: collapse;
 border-spacing: 0;
 }
+
+
+/* set border-box (so that css uses a
+more reasonable box model, and so it’s
+like every other platform) */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+/* media elements are replaced elements
+which have a width based on the media,
+so we prevent it from expanding beyond
+its container, and take up a row */
+picture, video, canvas, svg { /*TODO: this used to also have img as a tag here */
+display: block;
+max-width: 100%;
+}
+
+/* get rid of default margins which
+vary depending on browser anyway, just
+set it yourself later*/
+* {
+margin: 0;
+}
+
+/* make tables look like spreadsheets
+and less like a spaced-out grid */
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+
