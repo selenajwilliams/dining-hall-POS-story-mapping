@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/dining-hall-POS-story-mapping.git/static/css/main.f855e6bc.css",
-    "main.js": "/dining-hall-POS-story-mapping.git/static/js/main.25943abf.js",
-    "static/js/453.e07f8c9e.chunk.js": "/dining-hall-POS-story-mapping.git/static/js/453.e07f8c9e.chunk.js",
-    "static/media/logo.svg": "/dining-hall-POS-story-mapping.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/dining-hall-POS-story-mapping.git/index.html",
-    "main.f855e6bc.css.map": "/dining-hall-POS-story-mapping.git/static/css/main.f855e6bc.css.map",
-    "main.25943abf.js.map": "/dining-hall-POS-story-mapping.git/static/js/main.25943abf.js.map",
-    "453.e07f8c9e.chunk.js.map": "/dining-hall-POS-story-mapping.git/static/js/453.e07f8c9e.chunk.js.map"
+    "main.css": "/dining-hall-POS-story-mapping/static/css/main.a81dda61.css",
+    "main.js": "/dining-hall-POS-story-mapping/static/js/main.3c3f5b6b.js",
+    "static/js/453.e07f8c9e.chunk.js": "/dining-hall-POS-story-mapping/static/js/453.e07f8c9e.chunk.js",
+    "static/media/Storyboard.jpeg": "/dining-hall-POS-story-mapping/static/media/Storyboard.8e5da6cb2d8b6468a5a2.jpeg",
+    "static/media/InterfaceSketch.jpeg": "/dining-hall-POS-story-mapping/static/media/InterfaceSketch.0ef9e4566572c02112b9.jpeg",
+    "static/media/JenniferPersona.png": "/dining-hall-POS-story-mapping/static/media/JenniferPersona.735c24c3288784fd764e.png",
+    "static/media/MichaelPersona.png": "/dining-hall-POS-story-mapping/static/media/MichaelPersona.7cce6c4e63e7e775e831.png",
+    "static/media/logo.svg": "/dining-hall-POS-story-mapping/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/dining-hall-POS-story-mapping/index.html",
+    "main.a81dda61.css.map": "/dining-hall-POS-story-mapping/static/css/main.a81dda61.css.map",
+    "main.3c3f5b6b.js.map": "/dining-hall-POS-story-mapping/static/js/main.3c3f5b6b.js.map",
+    "453.e07f8c9e.chunk.js.map": "/dining-hall-POS-story-mapping/static/js/453.e07f8c9e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.25943abf.js"
+    "static/css/main.a81dda61.css",
+    "static/js/main.3c3f5b6b.js"
   ]
 }
