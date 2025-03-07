@@ -11,7 +11,7 @@ import interfaceSketch from '../assets/InterfaceSketch.jpeg'
 export function Intro() {
     return (
     <div>
-        <h1>Understanding Point-of-Sale Experiences of Brown Dining Hall Workers</h1>
+        <h1>Understanding Point-of-Sale Experiences of Brown Dining Services Workers</h1>
         <h2>Project Overview</h2>
         <p>In this project, I set out to better understand the experiences of Brown Dining Services workers with point-of-sale (POS) interfaces. To accomplish this, I conducted a series of interviews, analyzed common challenges, needs, and strengths of the existing POS system, in order to provide data-driven recommendations for improvement.</p>
     </div>
