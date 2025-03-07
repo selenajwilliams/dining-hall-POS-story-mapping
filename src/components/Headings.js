@@ -1,6 +1,11 @@
 import React from 'react'
 import '../styles/styles.css'
 
+/**
+ * This is a toy component that is helpful to keep at the bottom of webpages 
+ * when designing. It helps you see what each of the headings looks like :)
+ */
+
 export default function Headings() {
   return (
     <div>

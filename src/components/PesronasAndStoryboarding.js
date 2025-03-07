@@ -1,6 +1,5 @@
 
 import React from 'react'
-import Headings from './Headings'
 
 import michaelPersona from '../assets/MichaelPersona.png'
 import jenniferPersona from '../assets/JenniferPersona.png'
