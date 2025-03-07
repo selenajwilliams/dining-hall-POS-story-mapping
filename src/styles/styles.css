@@ -63,7 +63,9 @@ p {
 
 
 
-/* Jeff's CSS Reset */
+/** Jeff's CSS Reset
+  * Taken from CS1300 Class Materials (Brown U 2025)
+  */
 
 /* set border-box (so that css uses a
 more reasonable box model, and so it’s
@@ -77,7 +79,7 @@ so we prevent it from expanding beyond
 its container, and take up a row */
 img, picture, video, canvas, svg {
 display: block;
-max-width: 100%;
+/* max-width: 100%; */
 }
 
 /* get rid of default margins which
@@ -94,7 +96,6 @@ border-collapse: collapse;
 border-spacing: 0;
 }
 
-
 /* set border-box (so that css uses a
 more reasonable box model, and so it’s
 like every other platform) */
@@ -105,7 +106,7 @@ like every other platform) */
 which have a width based on the media,
 so we prevent it from expanding beyond
 its container, and take up a row */
-picture, video, canvas, svg { /*TODO: this used to also have img as a tag here */
+img, picture, video, canvas, svg { /*TODO: this used to also have img as a tag here */
 display: block;
 max-width: 100%;
 }
