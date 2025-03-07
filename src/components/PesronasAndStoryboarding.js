@@ -80,10 +80,10 @@ export function Personas() {
         <div>
             <h2>Personas</h2>
             <p>As an exercise in understanding the thoughts, feelings, actions, and words end-users, I created these two personas as 'archtypal users', which I hope to use to capture key kinds of users who interact with this system.</p>
-            <h3 >Manager Mike</h3>
+            <h3 >Persona #1: Manager Mike</h3>
             <img className='img' src={michaelPersona} alt='persona for manager Mike'/>
             <p>Manager Mike represents users who only interact with the system occasionally. For users like manager Mike, who's attention is split between managerial or other administrative duties, it's essential that the system be simple, learnable, intuitive, and memorable. </p>
-            <h3>Jennifer</h3>
+            <h3>Persona #2: Jennifer</h3>
             <img className='img' src={jenniferPersona} alt='persona for Jennifer'/>
             <p>Jennifer represents users who interact with the system for long periods of time, often under the stress of multiple simultaneous demands like student questions or long lines. For users like Jennifer, it's important that the system be fast, reliable, and have low-cognitive demand in order to effectively multitask through long shifts.</p>
         </div>
@@ -112,7 +112,7 @@ export function Conclusion() {
 
 export default function PersonasAndStoryboarding() {
     return (
-        <div> 
+        <div className='container'> 
             <Intro/>
             <InterfaceSketch/>
             <UserInterviews/>

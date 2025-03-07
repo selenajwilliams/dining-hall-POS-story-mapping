@@ -1,9 +1,19 @@
-body {
+/* body {
     /* background-color: #131313; */
-    background-color: #FFFCF6;
-    margin-left: 10px;
+    /* background-color: #FFFCF6; */
+    /* margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px; 
+} */
+
+body {
+    background-color: #FFFCF6;
+}
+
+.container {
+    /* background-color: #131313; */
+    margin: 1% 2% 2% 1%;
 }
 
 h1 {
@@ -56,15 +66,15 @@ p {
 
 .img {
     /* display: flex; */
-    max-width: 60%;
+    max-width: 80%;
 
 }
 
 
 /* this isn't working :( */
 @media (min-width: 1200px) {
-    img {
-        max-width: 40%
+    .img {
+        max-width: 60%
     }
 }
 
